@@ -1,0 +1,119 @@
+/*
+* General Styles
+*/
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* { font-family: Arial, Helvetica, sans-serif }
+body { background-color: #BCBCBD }
+h1 {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px #C1D4E6;
+}
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+    /*THIS IS A HACK TO CLEAR FLOATS*/
+    overflow: hidden;
+}
+.link-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*NAVIGATION STYLES*/
+nav {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    padding: 0px 0 0 0;
+}
+nav li { display: inline-block }
+nav a {
+    display: block;
+    padding: 5px 18px 0px 18px;
+    color: #DCDCDC;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #E6E6E6;
+    color: #BCBCBD;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+/*CONTENT STYLES*/
+section {
+    padding: 2px 0;
+    border-top-right-radius: 90px;
+}
+main {
+    width: 700px;
+    float: right;
+    padding: 7px 20;
+}
+h3 {
+    text-transform: capitalize;
+    color: #B0B3BE;
+}
+.content { color: #777777 }
+/*SIDEBAR STYLES*/
+aside {
+    width: 300px;
+    float: left;
+    background: #E6E6E6;
+    padding: 0px 30 20 20;
+    border-bottom-right-radius: 90px;
+    margin: 0px 0 0 0;
+}
+aside a {
+    color: #5B6891;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+aside a:hover {
+    text-decoration: none;
+    color: #060C1D;
+}
+h2 {
+    text-transform: uppercase;
+    color: #9CA0AE;
+}
+/*FOOTER STYLES*/
+footer {
+    background-color: #DADADA;
+    padding: 20px 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+/*GRID STYLES*/
+.grid {
+    overflow: hidden;
+    border: 2px;
+    border-color: #FFF;
+    border-style: solid;
+    margin: 0px 30 90 0;
+    padding: 0px 0 0 0;
+}
+.grid li {
+    padding: 2px;
+    width: 25%;
+    float: left;
+}
+.grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
