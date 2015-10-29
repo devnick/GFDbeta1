@@ -9,14 +9,17 @@
     box-sizing: border-box;
 }
 * { font-family: Arial, Helvetica, sans-serif }
-body { background-color: #BCBCBD }
+body { 
+    background-color: #BCBCBD;
+}
 h1 {
-    margin-bottom: 16px;
+    margin: 0px 0 16 0;
+    padding: 0px 0 0 0;
     text-transform: uppercase;
     color: #9CA0A3;
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 44px;
     text-shadow: 0px 1px 4px #fff;
 }
 .wrap {
@@ -44,6 +47,7 @@ nav {
 nav ul {
     list-style: none;
     padding: 0px 0 0 0;
+    margin: 0px 0 0 0;
 }
 nav li { display: inline-block }
 nav a {
@@ -63,6 +67,7 @@ nav a:hover {
 section {
     padding: 2px 0;
     border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
     border-style: solid;
     border-color: red;
     border-width: 0px;
@@ -117,9 +122,12 @@ h2 {
 /*FOOTER STYLES*/
 footer {
     background-color: #DADADA;
-    padding: 20px 0;
+    padding: 0px 0 0 20;
+    margin: 0px 0 0 0;
     color: #FFFFFF;
-    text-align: center;
+}
+#footercopy {
+    float: left;
 }
 /*GRID STYLES*/
 .grid {
@@ -127,7 +135,7 @@ footer {
     border: 1px;
     border-color: #E6E6E6;
     border-style: solid;
-    margin: 16px 60 80 0;
+    margin: 16px 60 0 0;
     padding: 0px 0 0 0;
 }
 .grid li {
@@ -195,4 +203,17 @@ footer {
     outline: none;
     /*unhide lightbox*/
     display: block;
+}
+/*CONTACT FORM BUTTON STYLE*/
+input[type=button] {
+    margin: 120px 0 0 50;
+    background-color: #BCBCBD;
+    color:#E6E6E6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    /* ... other rules ... */
+    cursor: help;
+}
+input[type=button]:hover {
+    background-color:rgba(255,204,0,0.8);
 }
