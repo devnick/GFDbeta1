@@ -89,7 +89,7 @@ h3 {
 .content { 
     color: #989899;
     text-align: justify;
-    margin: 0px 60 60 0; 
+    margin: 0px 60 0 0; 
 }
 /*SIDEBAR STYLES*/
 aside {
@@ -207,13 +207,12 @@ footer {
 /*CONTACT FORM BUTTON STYLE*/
 input[type=button] {
     margin: 120px 0 0 50;
+    padding: 5px 5 5 5;
     background-color: #BCBCBD;
     color:#E6E6E6;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 160%;
-    /* ... other rules ... */
-    cursor: help;
 }
 input[type=button]:hover {
-    background-color:rgba(255,204,0,0.8);
+    background-color: #3399FF;
 }
