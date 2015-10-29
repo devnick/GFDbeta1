@@ -6,7 +6,7 @@
         <meta http equiv="x-ua-compatible" content="ie=edge">
 
         <!--TITLE-->
-        <title>ghostface dinner</title>
+        <title>GHOSTFACE DINNER</title>
 
         <!--META CONTENT-->
         <meta name="A fine dining experience inspired by a key member of the Clan from Shaolin" content="">
@@ -66,7 +66,16 @@
                 <h3>feast your eyes</h3>
 
                 <ul class="grid">
-                    <li><img src="http://del.h-cdn.co/assets/cm/15/10/54f6b2684e53c_-_food_200612_shrimp_300x300.jpg" alt="Food"></li>
+                <!--CLICKABLE LIGHTBOX IMAGES-->
+                    <li>
+                    	<a href="#img1">
+  							<img src="img/WU.jpg" alt="WU" style="margin:0px 0 0 0;">
+						</a>
+
+						<a href="#_" class="lightbox" id="img1">
+  							<img src="img/WU.jpg">
+						</a>
+					</li>
                     <li><img src="http://placehold.it/300x300" alt="Food"></li>
                     <li><img src="http://placehold.it/300x300" alt="Food"></li>
                     <li><img src="http://placehold.it/300x300" alt="Food"></li>
@@ -82,9 +91,33 @@
 
                 <h3>inspiration</h3>
 
-                <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam distinctio sequi recusandae eum perferendis, ea tenetur at fugiat consequuntur cumque voluptate quis nobis, iste dolor culpa facere quo rerum. Magni.</p>
+                <p class="content">
+                	<a href="#img1">
+  						<img src="img/WU.jpg" alt="WU" style="float:left;margin:5px 10 0 0;width:80px;height:80px;">
+					</a>
 
-                <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam distinctio sequi recusandae eum perferendis, ea tenetur at fugiat consequuntur cumque voluptate quis nobis, iste dolor culpa facere quo rerum. Magni.</p>
+					<a href="#_" class="lightbox" id="img1">
+  						<img src="img/WU.jpg">
+					</a>
+					
+                	<!--ATTEMPTING TO USE CANVAS STILL UNDER CONSTRUCTION-->
+					<!--img id="WU" src="img/WU.jpg" alt="WU" width="80" height="80">
+				
+					<canvas id="myCanvas" width="80" height="80" style="float:left;margin:5px 10 0 0;width:80px;height:80px;">
+					Your browser does not support the HTML5 canvas tag.</canvas>
+
+						<script>
+							function myCanvas() {
+    							var c = document.getElementById("myCanvas");
+    							var ctx = c.getContext("2d");
+    							var img = document.getElementById("WU");
+    							ctx.drawImage(img,10,10);
+								}
+						</script-->
+
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam distinctio sequi recusandae eum perferendis, ea tenetur at fugiat consequuntur cumque voluptate quis nobis, iste dolor culpa facere quo rerum. Magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam distinctio sequi recusandae eum perferendis, ea tenetur at fugiat consequuntur cumque voluptate quis nobis, iste dolor culpa facere quo rerum. Magni. ea tenetur at fugiat consequuntur cumque voluptate quis nobis, iste dolor culpa facere quo rerum. Magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam distinctio sequi recusandae eum perferendis, ea tenetur at fugiat consequuntur cumque voluptate quis nobis, iste dolor culpa facere quo rerum. Magni.
+                </p>
+
             </main>
 
             <!--FOOTER-->
