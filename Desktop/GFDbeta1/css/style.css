@@ -71,11 +71,13 @@ main {
 h3 {
     text-transform: capitalize;
     color: #B0B3BE;
+    font-size: 20px;
+    margin: 16px 0 10 0;
 }
 .content { 
     color: #777777;
     text-align: justify;
-    margin: 0px 30 0 0; 
+    margin: 0px 60 60 0; 
 }
 /*SIDEBAR STYLES*/
 aside {
@@ -109,10 +111,10 @@ footer {
 /*GRID STYLES*/
 .grid {
     overflow: hidden;
-    border: 2px;
-    border-color: #FFF;
+    border: 1px;
+    border-color: #E6E6E6;
     border-style: solid;
-    margin: 0px 30 30 0;
+    margin: 16px 60 80 0;
     padding: 0px 0 0 0;
 }
 .grid li {
@@ -176,7 +178,7 @@ footer {
     padding: 5% 0 33% 0%;
 }
 .lightbox:target {
-    /*emove default browser outline*/
+    /*remove default browser outline*/
     outline: none;
     /*unhide lightbox*/
     display: block;
