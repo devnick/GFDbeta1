@@ -82,7 +82,7 @@ h3 {
     margin: 20px 0 10 0;
 }
 .content { 
-    color: #777777;
+    color: #989899;
     text-align: justify;
     margin: 0px 60 60 0; 
 }
@@ -102,7 +102,7 @@ aside {
     border-top-style: none;
 }
 aside a {
-    color: #5B6891;
+    color: #A9A9AA;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -112,7 +112,7 @@ aside a:hover {
 }
 h2 {
     text-transform: uppercase;
-    color: #9CA0AE;
+    color: #BCBCBD;
 }
 /*FOOTER STYLES*/
 footer {
