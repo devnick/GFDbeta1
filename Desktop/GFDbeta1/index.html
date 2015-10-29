@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
+        <!--Lity LIGHTBOX-->
+        <link href="dist/lity.css" rel="stylesheet">
     </head>
     <body>
 
@@ -69,10 +71,9 @@
                 <h3>feast your eyes</h3>
 
                 <ul class="grid">
-				<!--CLICKABLE LIGHTBOX IMAGES-->
+				<!--LIGHTBOX-->
 					<li>
-					<a href="#img1"><img src="img/WU.jpg" alt="WU" style="margin:0px 0 0 0;"></a>
-					<a href="#_" class="lightbox" id="img1"><img src="img/WU.jpg"></a>
+						<a href="img/WU.jpg" title="WU TANG IS THE GREATEST" alt="WU" data-lity><img src="img/WU.jpg" /></a>
 					</li>
                     <li><img src="http://placehold.it/300x300" alt="Food"></li>
                     <li><img src="http://placehold.it/300x300" alt="Food"></li>
@@ -99,6 +100,17 @@
             </footer>
 
         </section>
+
+     	<!--Lity LIGHTBOX UNDER CONSTRUCTION-->
+        <script src="vendor/jquery.js"></script>
+		<script src="dist/lity.js"></script>
+		<script>
+			var lightbox = lity();
+			// Bind as an event handler
+			$(document).on('click', '[data-lightbox]', lightbox);
+
+
+		</script
 
     </body>
 </html>
