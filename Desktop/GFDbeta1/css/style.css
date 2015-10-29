@@ -48,7 +48,8 @@ nav ul {
 nav li { display: inline-block }
 nav a {
     display: block;
-    padding: 5px 18 0 18;
+    padding: 5px 15 0 15;
+    margin: 0px 0 0 6;
     color: #DCDCDC;
     text-decoration: none;
 }
@@ -62,17 +63,23 @@ nav a:hover {
 section {
     padding: 2px 0;
     border-top-right-radius: 90px;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px;
+    margin: 0px 0 0 0;
+    border-bottom-style:none;
+    border-left-style: none;
 }
 main {
     width: 700px;
     float: right;
-    padding: 7px 20;
+    padding: 1px 20;
 }
 h3 {
     text-transform: capitalize;
     color: #B0B3BE;
     font-size: 20px;
-    margin: 16px 0 10 0;
+    margin: 20px 0 10 0;
 }
 .content { 
     color: #777777;
@@ -87,6 +94,12 @@ aside {
     padding: 0px 30 20 20;
     border-bottom-right-radius: 90px;
     margin: 0px 0 0 0;
+    border-width: 2px;
+    border-left-width: 6px;
+    border-color: #BCBCBD;
+    border-style: solid;
+    border-left-color: #BCBCBD;
+    border-top-style: none;
 }
 aside a {
     color: #5B6891;
